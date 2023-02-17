@@ -29,7 +29,18 @@ $primaryColor : #a7bcff;
         height: 80%;
         width: 50%;
         background-color: white;
-        border-radius: 10px;
+        border-radius: 5px;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+
+        .sidebar{
+            flex: 1;
+            height: 100%;
+        }
+        .chat{
+            flex: 2;
+            height: 100%;
+        }
     }
 }
