@@ -1,0 +1,35 @@
+@mixin mobile{
+    @media screen and (max-width: 640px) {
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin laptop{
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+$primaryColor : #a7bcff;
+
+.body-wrapper{
+    background-color: $primaryColor;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home{
+        height: 80%;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

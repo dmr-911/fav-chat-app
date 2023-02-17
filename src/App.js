@@ -7,7 +7,7 @@ import Register from "./pages/Register";
 
 function App() {
   return (
-    <div className="App">
+    <div className="body-wrapper">
       <Router>
         <Routes>
           <Route path="/">
